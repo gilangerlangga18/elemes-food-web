@@ -22,21 +22,15 @@ function Footer() {
             Jl. Prof. DR. Satrio No.7, RT.3/RW.3, Karet Kuningan, Kecamatan
             Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950
           </Typography>
-          <Box
-            sx={{
-              display: "flex",
-              gap: "10px",
-              marginTop: "40px",
-            }}
-          >
+          <Box sx={sx.icon}>
             <PhoneIcon sx={sx.iconFooter} />
             <EmailIcon sx={sx.iconFooter} />
             <InstagramIcon sx={sx.iconFooter} />
           </Box>
         </Box>
-        <Box sx={sx.categories}>
-          <Typography sx={sx.fontTitleFooter}>Categories</Typography>
-          <Box sx={sx.itemCategories}>
+        <Box sx={sx.boxItemFooter}>
+          <Typography sx={sx.textUp}>Categories</Typography>
+          <Box sx={sx.itemFooter}>
             <Typography>Cupcake</Typography>
             <Typography>Pizza</Typography>
             <Typography>Kebab</Typography>
@@ -44,24 +38,17 @@ function Footer() {
             <Typography>Dougnut</Typography>
           </Box>
         </Box>
-        <Box sx={sx.itemCategories}>
-          <Typography sx={sx.fontTitleFooter}>About Us</Typography>
-          <Box sx={sx.itemCategories}>
+        <Box sx={sx.boxItemFooter}>
+          <Typography sx={sx.textUp}>About Us</Typography>
+          <Box sx={sx.itemFooter}>
             <Typography>About Us</Typography>
             <Typography>FAQ</Typography>
             <Typography>Report Problem</Typography>
           </Box>
         </Box>
-        <Box sx={sx.BoxRight}>
-          <Typography sx={sx.fontTitleFooter}>Newsletter</Typography>
-          <Box
-            sx={{
-              width: "245px",
-              fontSize: "14px",
-              fontWeight: "400",
-              lineHeight: "24px",
-            }}
-          >
+        <Box sx={sx.boxLeft}>
+          <Typography sx={sx.textUp}>Newsletter</Typography>
+          <Box sx={sx.textGEt}>
             <Typography>
               Get now free 50% discount for alll products on your first order
             </Typography>
@@ -74,55 +61,22 @@ function Footer() {
                   },
                 }}
               />
-              <Button
-                sx={{
-                  height: "40px",
-                  color: "white",
-                  backgroundColor: "#8BAC3E",
-                }}
-              >
-                SEND
-              </Button>
+              <Button sx={sx.btnSend}>SEND</Button>
             </Box>
-            <Box
-              sx={{
-                display: "flex",
-                flexDirection: "column",
-                gap: "20px",
-                marginTop: "20px",
-              }}
-            >
-              <Box
-                sx={{
-                  display: "flex",
-                  gap: "15px",
-                }}
-              >
-                <PhoneIcon
-                  sx={{
-                    color: "#8BAC3E",
-                  }}
-                />
+            <Box sx={sx.boxCntct}>
+              <Box sx={sx.boxContact}>
+                <PhoneIcon sx={sx.colorIcon} />
                 <Typography> elemesid@gmail.com</Typography>
               </Box>
-              <Box
-                sx={{
-                  display: "flex",
-                  gap: "15px",
-                }}
-              >
-                <EmailIcon
-                  sx={{
-                    color: "#8BAC3E",
-                  }}
-                />
+              <Box sx={sx.boxContact}>
+                <EmailIcon sx={sx.colorIcon} />
                 <Typography> 0888 1111 2222 </Typography>
               </Box>
             </Box>
           </Box>
         </Box>
       </Box>
-      <Typography sx={sx.footerTag}>
+      <Typography sx={sx.textCopyright}>
         © 2021 Elemes id. All rights reserved
       </Typography>
       <FooterBurger />

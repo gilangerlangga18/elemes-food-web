@@ -21,7 +21,7 @@ export const footerStyles = {
     height: "80%",
     display: "flex",
     flexDirection: "column",
-    // justifyContent: "space-between",
+    justifyContent: "space-between",
     alignItems: "start",
     gap: "21.7px",
     marginTop: "74.3px",
@@ -45,15 +45,18 @@ export const footerStyles = {
       color: "white",
     },
   },
-  categories: {
-    width: "15%",
-    height: "80%",
+  icon: {
     display: "flex",
-    flexDirection: "column",
-    marginTop: "79px",
-    textAlign: "start",
+    gap: "10px",
+    marginTop: "40px",
   },
-  itemCategories: {
+  textUp: {
+    fontWeight: "600",
+    fontsize: "18px",
+    lineHeight: "24px",
+    marginBottom: "33px",
+  },
+  itemFooter: {
     fontWeight: "400",
     fontSize: "14px",
     lineHeight: "16px",
@@ -61,11 +64,18 @@ export const footerStyles = {
     flexDirection: "column",
     gap: "10px",
   },
-  fontTitleFooter: {
-    fontWeight: "600",
-    fontsize: "18px",
+  boxLeft: {
+    width: "30%",
+    height: "80%",
+    display: "flex",
+    flexDirection: "column",
+    marginTop: "79px",
+  },
+  textGEt: {
+    width: "245px",
+    fontSize: "14px",
+    fontWeight: "400",
     lineHeight: "24px",
-    marginBottom: "33px",
   },
   boxInput: {
     display: "flex",
@@ -76,7 +86,12 @@ export const footerStyles = {
     overflow: "hidden",
     marginTop: "20px",
   },
-  footerTag: {
+  btnSend: {
+    height: "40px",
+    color: "white",
+    backgroundColor: "#8BAC3E",
+  },
+  textCopyright: {
     fontWeight: " 400",
     fontSize: "12px",
     lineHeight: " 16px",
@@ -85,11 +100,25 @@ export const footerStyles = {
     margin: "48px 0 28px 0",
     display: { xs: "none", md: "unset" },
   },
-  BoxRight: {
-    width: "30%",
+  colorIcon: {
+    color: "#8BAC3E",
+  },
+  boxContact: {
+    display: "flex",
+    gap: "15px",
+  },
+  boxCntct: {
+    display: "flex",
+    flexDirection: "column",
+    gap: "20px",
+    marginTop: "20px",
+  },
+  boxItemFooter: {
+    width: "15%",
     height: "80%",
     display: "flex",
     flexDirection: "column",
     marginTop: "79px",
+    textAlign: "start",
   },
 };
