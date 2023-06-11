@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.btn :hover {
+  background-color: none;
+  text-decoration: none;
+}
+.categoryCarousel::-webkit-scrollbar {
+  display: none;
+}

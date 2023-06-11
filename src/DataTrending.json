@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "img": "../../../image/food/pexels-brett-jordan-842519 1.svg",
+    "title": "Pizza Paperoni",
+    "jenis": "Pizza",
+    "bintang": 4,
+    "color": "#E6F3F5"
+  },
+  {
+    "id": "2",
+    "img": "../../../image/food/pexels-daria-shevtsova-1260968 1.svg",
+    "title": "Pizza Meat",
+    "jenis": "Pizza",
+    "bintang": 3,
+    "color": "#E6F3F5"
+  },
+  {
+    "id": "3",
+    "img": "../../../image/food/pexels-nishant-aneja-2955819 1.svg",
+    "title": "Doner Kebab",
+    "jenis": "Kebab",
+    "bintang": 5,
+    "color": "#EAEEFA"
+  },
+  {
+    "id": "4",
+    "img": "../../../image/food/pexels-olga-lioncat-7245464 1.svg",
+    "title": "Salmon Roll",
+    "jenis": "Salmon",
+    "bintang": 4,
+    "color": "#F9EEF3"
+  },
+  {
+    "id": "5",
+    "img": "../../../image/food/pexels-oleg-magni-1908674 1.svg",
+    "title": "Cupcake Choco",
+    "jenis": "Cupcake",
+    "bintang": 4,
+    "color": "#F0FEEB"
+  },
+  {
+    "id": "6",
+    "img": "../../../image/food/pexels-alena-shekhovtcova-6940978 1.svg",
+    "title": "Doughnut Milk",
+    "jenis": "Doughnut",
+    "bintang": 5,
+    "color": "#F3F7D9"
+  },
+  {
+    "id": "7",
+    "img": "../../../image/food/pexels-karley-saagi-2064449 1.svg",
+    "title": "Doughnut Unicorn",
+    "jenis": "Doughnut",
+    "bintang": 4,
+    "color": "#F3F7D9"
+  },
+  {
+    "id": "8",
+    "img": "../../../image/food/pexels-polina-tankilevitch-6419736 1.svg",
+    "title": "Kathi Kebab",
+    "jenis": "Kebab",
+    "bintang": 4,
+    "color": "#EAEEFA"
+  }
+]

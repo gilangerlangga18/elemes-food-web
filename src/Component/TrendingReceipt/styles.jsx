@@ -1,0 +1,67 @@
+export const stylesTrensdingReceipt = {
+  body: {
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    marginTop: { xs: "-100px", md: "40px" },
+  },
+  conatiner: {
+    width: "90%",
+    display: "flex",
+    flexDirection: "column",
+  },
+  textTrending: {
+    fontSize: { xs: "18px", md: "38px" },
+    fontWeight: "600",
+    lineHeight: { xs: "20px", md: "50px" },
+  },
+  textReceipt: {
+    fontSize: { xs: "18px", md: "38px" },
+    fontWeight: "600",
+    lineHeight: { xs: "20px", md: "50px" },
+    color: "#8BAC3E",
+  },
+  boxItem: {
+    display: "flex",
+    flexWrap: "wrap",
+    width: "100%",
+    marginTop: "40px",
+    marginBottom: { xs: "30px", md: "68px" },
+    gap: "40px",
+    justifyContent: { xs: "center", md: "unset" },
+    height: { xs: "600px", md: "unset" },
+    overflow: { xs: "auto", md: "unset" },
+  },
+  image: {
+    width: { xs: "90px", md: "125px" },
+    height: { xs: "90px", md: "125px" },
+    borderRadius: "17px",
+    marginLeft: "20px",
+  },
+  TitileItem: {
+    fontWeight: "500",
+    fontSize: { xs: "20px", md: "26px" },
+    lineHeight: " 50px",
+  },
+  jenisItem: {
+    fontWeight: "500",
+    fontSize: "18px",
+    lineHeight: " 21px",
+    color: "#8BAC3E",
+  },
+  btnReceipt: {
+    width: "160px",
+    height: "50px",
+    background: "#8BAC3E",
+    borderRadius: "100px",
+    alignSelf: "center",
+    marginBottom: "59px",
+    color: "white",
+    display: { xs: "none", md: "unset" },
+  },
+  typoItem: {
+    display: "flex",
+    flexDirection: "column",
+    marginLeft: "20px",
+  },
+};
